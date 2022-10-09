@@ -18,7 +18,7 @@ function Rooms() {
           <TransparentBlogCard
             image={post1}
             title="Double Bedroom"
-            description="Finding temporary housing for your dog should be as easy as renting an Airbnb. That’s the idea behind Rover ..."
+            description="1 king size bed"
             action={{
               type: "internal",
               route: "/pages/blogs/author",
@@ -31,7 +31,33 @@ function Rooms() {
           <TransparentBlogCard
             image={post1}
             title="Suite Room"
-            description="Finding temporary housing for your dog should be as easy as renting an Airbnb. That’s the idea behind Rover ..."
+            description="1 king size bed. 1 sofa cum king size bed"
+            action={{
+              type: "internal",
+              route: "/pages/blogs/author",
+              color: "info",
+              label: "read more",
+            }}
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} lg={3}>
+          <TransparentBlogCard
+            image={post1}
+            title="2 BHK"
+            description="2 king size bed. 1 sofa cum king size bed"
+            action={{
+              type: "internal",
+              route: "/pages/blogs/author",
+              color: "info",
+              label: "read more",
+            }}
+          />
+        </Grid>
+        <Grid item xs={12} sm={6} lg={3}>
+          <TransparentBlogCard
+            image={post1}
+            title="4 BHK"
+            description="4 king size bed. 3 sofa cum king size bed"
             action={{
               type: "internal",
               route: "/pages/blogs/author",
