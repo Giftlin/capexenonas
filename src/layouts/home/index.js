@@ -55,7 +55,7 @@ function Home() {
               px={{ xs: 6, lg: 12 }}
               mt={1}
             >
-              Nagercoil, Kanniyakumari district, Tamilnadu, India
+              A peaceful guest house in Nagercoil, Kanniyakumari district, Tamilnadu, India
             </MKTypography>
             <Grid item>
               <Link to="/booking">

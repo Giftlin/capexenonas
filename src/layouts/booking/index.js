@@ -6,17 +6,9 @@ import { DatePicker, TimePicker, MuiPickersUtilsProvider } from "@material-ui/pi
 import DateFnsUtils from "@date-io/date-fns";
 import * as yup from "yup";
 import Rooms from "layouts/booking/components/rooms";
-
-// @mui material components
 import Grid from "@mui/material/Grid";
-
-// Material Kit 2 React components
 import MKBox from "components/MKBox";
-
-// Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
-
-// Routes
 import routes from "routes";
 import MKTypography from "components/MKTypography";
 
