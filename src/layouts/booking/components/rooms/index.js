@@ -1,5 +1,5 @@
 import React from "react";
-import TransparentBlogCard from "examples/Cards/BlogCards/TransparentBlogCard";
+import InfoCard from "layouts/booking/components/infocard";
 
 // @mui material components
 import Grid from "@mui/material/Grid";
@@ -15,7 +15,7 @@ function Rooms() {
     <MKBox pt={3} px={3}>
       <Grid container spacing={3}>
         <Grid item xs={12} sm={6} lg={3}>
-          <TransparentBlogCard
+          <InfoCard
             image={post1}
             title="Double Bedroom"
             description="1 king size bed"
@@ -28,7 +28,7 @@ function Rooms() {
           />
         </Grid>
         <Grid item xs={12} sm={6} lg={3}>
-          <TransparentBlogCard
+          <InfoCard
             image={post1}
             title="Suite Room"
             description="1 king size bed. 1 sofa cum king size bed"
@@ -41,7 +41,7 @@ function Rooms() {
           />
         </Grid>
         <Grid item xs={12} sm={6} lg={3}>
-          <TransparentBlogCard
+          <InfoCard
             image={post1}
             title="2 BHK"
             description="2 king size bed. 1 sofa cum king size bed"
@@ -54,7 +54,7 @@ function Rooms() {
           />
         </Grid>
         <Grid item xs={12} sm={6} lg={3}>
-          <TransparentBlogCard
+          <InfoCard
             image={post1}
             title="4 BHK"
             description="4 king size bed. 3 sofa cum king size bed"
