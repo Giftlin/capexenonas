@@ -1,16 +1,17 @@
 {
-  "name": "Cape Xenónas",
+  "name": "material-kit-2-react",
   "version": "2.0.0",
   "private": true,
-  "author": "Giftlin R",
-  "description": "Cape Xenónas - A dream project",
-  "homepage": "https://github.com/Giftlin/capexenonas.git/#/",
+  "author": "Creative Tim",
+  "license": "See license in https://www.creative-tim.com/license",
+  "description": "React version of Material Kit 2 by Creative Tim",
+  "homepage": "https://demos.creative-tim.com/material-kit-react/#/",
   "bugs": {
-    "url": "https://github.com/Giftlin/capexenonas.git/issues"
+    "url": "https://github.com/creativetimofficial/ct-material-kit-react/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Giftlin/capexenonas.git"
+    "url": "git+https://github.com/creativetimofficial/ct-material-kit-react.git"
   },
   "engines": {
     "node": "14 || 15 || 16",
@@ -21,7 +22,6 @@
     "@emotion/cache": "11.4.0",
     "@emotion/react": "11.4.1",
     "@emotion/styled": "11.3.0",
-    "@material-ui/core": "^4.12.4",
     "@material-ui/pickers": "^3.3.10",
     "@mui/icons-material": "5.2.0",
     "@mui/material": "5.2.0",
@@ -30,9 +30,10 @@
     "@testing-library/react": "11.1.0",
     "@testing-library/user-event": "12.1.10",
     "chroma-js": "2.1.2",
-    "date-fns": "^2.29.3",
     "flatpickr": "4.6.9",
     "formik": "^2.2.9",
+    "i": "^0.3.7",
+    "npm": "^8.19.2",
     "prop-types": "15.7.2",
     "react": "17.0.2",
     "react-copy-to-clipboard": "5.0.4",
@@ -40,7 +41,7 @@
     "react-dom": "17.0.2",
     "react-flatpickr": "3.10.7",
     "react-router-dom": "6.0.2",
-    "react-scripts": "^5.0.1",
+    "react-scripts": "4.0.3",
     "react-syntax-highlighter": "15.4.5",
     "web-vitals": "1.0.1",
     "yup": "^0.32.11"
